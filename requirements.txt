@@ -1,6 +1,9 @@
 accelerate
 bitsandbytes
-datasets>=3.3.2
+
+# temporary fix for https://github.com/huggingface/finetrainers/issues/424
+datasets==3.6.0
+
 diffusers>=0.32.1
 transformers>=4.45.2
 huggingface_hub
